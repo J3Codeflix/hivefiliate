@@ -176,7 +176,7 @@ export default function Merchant(props) {
 							<Route path={process.env.PUBLIC_URL+'/settings/payment'}  component={istaff==0?Payment:NoPermission}/>
 
 							<Route path={process.env.PUBLIC_URL+'/account'}  component={Account}/>
-              <Route path={process.env.PUBLIC_URL+'/payment'}  component={istaff==0?AccountPlan:NoPermission}/>
+              <Route path={process.env.PUBLIC_URL+'/payment'}  component={AccountPlan}/>
 
 							<Route path={process.env.PUBLIC_URL+'/integration'}  component={Integration}/>
 							<Route path={process.env.PUBLIC_URL+'/staff'}  component={istaff==0?Staff:NoPermission}/>
