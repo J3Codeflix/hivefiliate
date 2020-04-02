@@ -1,0 +1,148 @@
+.visible.transition {
+position: relative;
+}
+.floatright i{
+    cursor: pointer;
+}
+.modalwrapper .header{
+    text-transform: uppercase;
+}
+.modalcontent .list,
+.message .list{
+    background-color: transparent!important;
+    border-radius: 0;
+    box-shadow: none;
+}
+.floatright{
+    float: right;
+}
+
+.legendsmodal .ui.label.is_minimum{
+    background: #e8e7d9!important;
+}
+.legendsmodal .ui.label.is_blocked{
+    background: #e3a2a2!important;
+}
+.legendsmodal .is_pending{
+    background: #fcc74b;
+}
+.legendsmodal .is_refered{
+    background: #ddeff8;
+}
+.legendsmodal .is_temporary{
+    background: #f4b4e2;
+}
+.legendsmodal p{
+    margin:10px 0;
+}
+
+
+/* Tab Modal */
+.tabmodal.ui.tabular.menu .active.item {
+    background: none #fff;
+    color: rgba(0,0,0,.95);
+    border-top-width: 1px;
+    border-color: #d4d4d5;
+    font-weight: 700;
+    background: #fafafa;
+    margin-bottom: -1px;
+    box-shadow: none;
+    border-radius: .28571429rem .28571429rem 0 0!important;
+}
+.tablsegment.ui.attached.segment {
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+    margin: 0 -1px;
+    width: calc(100% + 2px);
+    max-width: calc(100% + 2px);
+    box-shadow: none;
+    border: 1px solid #d4d4d5;
+    background: #fafafa;
+}
+.tab-wrapper{
+    padding: 30px;
+}
+.tab-wrapper .iscontent{
+    background: #fff;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.tab-wrapper .iscolumns{
+    margin:20px 0;
+}
+
+.tab-wrapper h2{
+    font-weight: 600;
+}
+.tab-wrapper h3{
+    color: #637381;
+}
+.manual-paid{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding:15px 0;
+}
+
+.segment-wrapper .iscontent{
+    background: #fff;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.segment-wrapper .iscolumns{
+    margin:20px 0;
+}
+.segment-wrapper h3{
+    color: #637381;
+}
+
+
+/* Action Scripts
+   #delete modal
+------------------------------------*/
+.iconaction{
+    text-align: center;
+}
+.iconaction i{
+    font-size: 5em;
+}
+.iconaction p{
+    padding-top: 10px;
+}
+.iconwarning i{
+    opacity: 0.4;
+    color: #637381;
+}
+.iconsuccess i{
+    opacity: 0.4;
+    color: #637381;
+}
+.iconsuccess p{
+   font-size: 1.5em;
+}
+.iconwarning p, .iconerror p{
+   font-size: 1.2em;
+}
+.iconerror i{
+    color: #db2828;
+}
+
+/* Alert Modal */
+.ui.modal>.content.alertformodal {
+  padding:5em 1.5rem;
+}
+.alertformodal{
+  text-align: center;
+}
+.alertformodal img{
+  max-width: 300px;
+}
+.alertformodal h3{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.alertformodal .button{
+  margin-top: 20px;
+}

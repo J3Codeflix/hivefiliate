@@ -1,0 +1,202 @@
+/* all pages */
+.pages-wrapper{
+    padding:20px;
+}
+.pages-wrapper .page-title {
+    font-weight: 500;
+    font-size: $titlesize;
+    color: $darkfontColor;
+}
+.page-title-wrapper{
+    margin-bottom: 20px;
+}
+.page-title-wrapper .breadcrumps{
+    text-align: right;
+}
+.page-title-wrapper .breadcrumps span:first-child{
+    font-weight: 500;
+}
+.page-title-wrapper .breadcrumps i{
+    margin:0 5px;
+    vertical-align: middle;
+    font-size: 11px;
+}
+
+/* Dashbaord */
+.dashboard{
+  padding: 40px 20px;
+}
+.datarevenue h3{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.datarevenue p{
+  opacity: 0.7;
+}
+.datarevenue .revenucolumn{
+  box-shadow: $boxinset;
+  padding:20px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.dashboardchart{
+  margin-top: 20px;
+  width: 100%;
+  max-height: 600px;
+}
+.dashboardpanel{
+  background: #fff;
+  box-shadow: $boxinset;
+}
+.dashboardpanel .dashboardpanel-header{
+  background: #f8f9fc;
+  font-size: 16px;
+  font-weight: 500;
+  padding:20px;
+  border-bottom: 1px solid silver;
+}
+.dashboardpanel .dashboardpanel-body{
+  padding:20px;
+}
+
+.managerdashboard{
+  margin-top: 20px;
+}
+.managerdashboard img{
+  max-width: 50px;
+}
+.managerdashboard h3{
+  font-size: 25px;
+  color: #fff;
+  opacity: 0.8;
+}
+.managerdashboard p{
+  color: #fff;
+  opacity: 0.4;
+}
+.revenuemanager{
+  background: #18627d;
+  padding:14px 20px!important;
+}
+
+.loadmore{
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* Merchant Page */
+.package-plan .planradio{
+  padding-top: 5px;
+}
+.package-plan{
+  margin-bottom: 15px;
+}
+.package-plan h4{
+  text-align: right;
+  font-size: 35px;
+  font-weight: 600;
+}
+.package-plan ul{
+  margin-top: 20px;
+}
+
+.package-plan.professional h3{
+  font-size: 25px;
+  font-weight: 600;
+  color: #18b532;
+}
+.package-plan.professional{
+  border-left: 3px solid #18b532;
+  padding:20px;
+}
+.package-plan.active_professional{
+  background: #e7f4cf;
+}
+
+.package-plan.enterprise h3{
+  font-size: 25px;
+  color: #ff7728;
+  font-weight: 600;
+}
+.package-plan.enterprise{
+  border-left: 3px solid #ff7728;
+  padding:20px;
+}
+.package-plan.active_enterprise{
+  background: #fad8bc;
+}
+
+
+
+.package-currentplan{
+  margin-bottom: 20px;
+}
+
+
+.pricing-panel{
+  border: 1px solid rgba(34,36,38,.1);
+}
+.pricing-panel .pricing-panel-header{
+  padding: 15px 20px;
+  border-bottom: 2px solid #276f86;
+  background: #f9fafb;
+}
+.pricing-panel .pricing-panel-header h3,
+.currentplan{
+  font-size: 18px;
+  font-weight: 400!important;
+  color:#276f86!important;
+}
+.pricing-panel .pricing-panel-body{
+  border-bottom: 1px solid rgba(34,36,38,.1);
+}
+.pricing-panel .pricing-panel-body:last-child{
+  border-bottom: none;
+}
+.pricing-panel .pricing-panel-body.description{
+  padding: 30px 20px;
+}
+.pricing-panel .pricing-panel-body.subtotal{
+  padding: 10px 20px;
+}
+.pricing-panel .pricing-panel-body.total{
+  padding: 20px 20px;
+  background: #f8ffff;
+  color: #276f86;
+  font-size: 20px;
+}
+.pricing-panel .pricing-panel-body.total h4,
+.pricing-panel .pricing-panel-body.total h3{
+  color: #276f86;
+  font-size: 20px;
+}
+.formdescription{
+  margin-top: 20px;
+}
+
+/* Staff */
+.subtitle{
+	font-size: 1.1rem;
+  line-height: 2.1rem;
+  font-weight: 600;
+  margin-right: 0.8rem;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.persmission-title{
+    margin-bottom: 10px;
+}
+.staff-permission{
+  margin-top: 25px;
+}
+.staff-permission h3{
+    margin-bottom: 5px;
+}
+
+/* Account */
+.account-wrapper{
+  width: 30%;
+}

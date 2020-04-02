@@ -1,0 +1,346 @@
+[12-Feb-2020 10:22:26 Asia/Hong_Kong] Webhook Customer Order Data: Array
+(
+    [id] => 2019902619785
+    [email] => shanjumadayofficial@gmail.com
+    [closed_at] => 
+    [created_at] => 2020-02-11T21:19:51-05:00
+    [updated_at] => 2020-02-11T21:22:11-05:00
+    [number] => 9
+    [note] => 
+    [token] => eacc311297a2bdd6b097ce46e9b03d0e
+    [gateway] => Cash on Delivery (COD)
+    [test] => 
+    [total_price] => 500.00
+    [subtotal_price] => 500.00
+    [total_weight] => 0
+    [total_tax] => 0.00
+    [taxes_included] => 
+    [currency] => CAD
+    [financial_status] => paid
+    [confirmed] => 1
+    [total_discounts] => 0.00
+    [total_line_items_price] => 500.00
+    [cart_token] => 
+    [buyer_accepts_marketing] => 1
+    [name] => #1009
+    [referring_site] => https://whertoshophive.myshopify.com/collections/frontpage/products/hug-32-inch-led-tv-lt32
+    [landing_site] => /wallets/checkouts.json
+    [cancelled_at] => 
+    [cancel_reason] => 
+    [total_price_usd] => 375.44
+    [checkout_token] => 104a99970f2c094bbb7bc340d7edc5fb
+    [reference] => 
+    [user_id] => 
+    [location_id] => 
+    [source_identifier] => 
+    [source_url] => 
+    [processed_at] => 2020-02-11T21:19:50-05:00
+    [device_id] => 
+    [phone] => 
+    [customer_locale] => en
+    [app_id] => 580111
+    [browser_ip] => 120.29.104.63
+    [landing_site_ref] => 
+    [order_number] => 1009
+    [discount_applications] => Array
+        (
+        )
+
+    [discount_codes] => Array
+        (
+        )
+
+    [note_attributes] => Array
+        (
+        )
+
+    [payment_gateway_names] => Array
+        (
+            [0] => Cash on Delivery (COD)
+        )
+
+    [processing_method] => manual
+    [checkout_id] => 12242879709321
+    [source_name] => web
+    [fulfillment_status] => 
+    [tax_lines] => Array
+        (
+        )
+
+    [tags] => 
+    [contact_email] => shanjumadayofficial@gmail.com
+    [order_status_url] => https://whertoshophive.myshopify.com/32415350921/orders/eacc311297a2bdd6b097ce46e9b03d0e/authenticate?key=27a1789b33d21e1b8af651721b993c44
+    [presentment_currency] => CAD
+    [total_line_items_price_set] => Array
+        (
+            [shop_money] => Array
+                (
+                    [amount] => 500.00
+                    [currency_code] => CAD
+                )
+
+            [presentment_money] => Array
+                (
+                    [amount] => 500.00
+                    [currency_code] => CAD
+                )
+
+        )
+
+    [total_discounts_set] => Array
+        (
+            [shop_money] => Array
+                (
+                    [amount] => 0.00
+                    [currency_code] => CAD
+                )
+
+            [presentment_money] => Array
+                (
+                    [amount] => 0.00
+                    [currency_code] => CAD
+                )
+
+        )
+
+    [total_shipping_price_set] => Array
+        (
+            [shop_money] => Array
+                (
+                    [amount] => 0.00
+                    [currency_code] => CAD
+                )
+
+            [presentment_money] => Array
+                (
+                    [amount] => 0.00
+                    [currency_code] => CAD
+                )
+
+        )
+
+    [subtotal_price_set] => Array
+        (
+            [shop_money] => Array
+                (
+                    [amount] => 500.00
+                    [currency_code] => CAD
+                )
+
+            [presentment_money] => Array
+                (
+                    [amount] => 500.00
+                    [currency_code] => CAD
+                )
+
+        )
+
+    [total_price_set] => Array
+        (
+            [shop_money] => Array
+                (
+                    [amount] => 500.00
+                    [currency_code] => CAD
+                )
+
+            [presentment_money] => Array
+                (
+                    [amount] => 500.00
+                    [currency_code] => CAD
+                )
+
+        )
+
+    [total_tax_set] => Array
+        (
+            [shop_money] => Array
+                (
+                    [amount] => 0.00
+                    [currency_code] => CAD
+                )
+
+            [presentment_money] => Array
+                (
+                    [amount] => 0.00
+                    [currency_code] => CAD
+                )
+
+        )
+
+    [line_items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4447491162249
+                    [variant_id] => 32142426341513
+                    [title] => HUG 32" Inch LED TV - LT32
+                    [quantity] => 1
+                    [sku] => 
+                    [variant_title] => 
+                    [vendor] => whertoshophive
+                    [fulfillment_service] => manual
+                    [product_id] => 4539065565321
+                    [requires_shipping] => 
+                    [taxable] => 
+                    [gift_card] => 
+                    [name] => HUG 32" Inch LED TV - LT32
+                    [variant_inventory_management] => shopify
+                    [properties] => Array
+                        (
+                        )
+
+                    [product_exists] => 1
+                    [fulfillable_quantity] => 1
+                    [grams] => 0
+                    [price] => 500.00
+                    [total_discount] => 0.00
+                    [fulfillment_status] => 
+                    [price_set] => Array
+                        (
+                            [shop_money] => Array
+                                (
+                                    [amount] => 500.00
+                                    [currency_code] => CAD
+                                )
+
+                            [presentment_money] => Array
+                                (
+                                    [amount] => 500.00
+                                    [currency_code] => CAD
+                                )
+
+                        )
+
+                    [total_discount_set] => Array
+                        (
+                            [shop_money] => Array
+                                (
+                                    [amount] => 0.00
+                                    [currency_code] => CAD
+                                )
+
+                            [presentment_money] => Array
+                                (
+                                    [amount] => 0.00
+                                    [currency_code] => CAD
+                                )
+
+                        )
+
+                    [discount_allocations] => Array
+                        (
+                        )
+
+                    [admin_graphql_api_id] => gid://shopify/LineItem/4447491162249
+                    [tax_lines] => Array
+                        (
+                        )
+
+                    [origin_location] => Array
+                        (
+                            [id] => 1735837810825
+                            [country_code] => CA
+                            [province_code] => ON
+                            [name] => whertoshophive
+                            [address1] => 278 St Jean Baptiste St Chateau Richer
+                            [address2] => 
+                            [city] => London
+                            [zip] => G0A 1N0
+                        )
+
+                )
+
+        )
+
+    [fulfillments] => Array
+        (
+        )
+
+    [refunds] => Array
+        (
+        )
+
+    [total_tip_received] => 0.0
+    [admin_graphql_api_id] => gid://shopify/Order/2019902619785
+    [shipping_lines] => Array
+        (
+        )
+
+    [billing_address] => Array
+        (
+            [first_name] => Ryan
+            [address1] => Bo. Barretto
+            [phone] => 
+            [city] => OIongapo
+            [zip] => 2200
+            [province] => 
+            [country] => Philippines
+            [last_name] => Jumaday
+            [address2] => 
+            [company] => 
+            [latitude] => 14.851194
+            [longitude] => 120.259359
+            [name] => Ryan Jumaday
+            [country_code] => PH
+            [province_code] => 
+        )
+
+    [client_details] => Array
+        (
+            [browser_ip] => 120.29.104.63
+            [accept_language] => en-US,en;q=0.9
+            [user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+            [session_hash] => 
+            [browser_width] => 1920
+            [browser_height] => 969
+        )
+
+    [customer] => Array
+        (
+            [id] => 3116971098249
+            [email] => shanjumadayofficial@gmail.com
+            [accepts_marketing] => 1
+            [created_at] => 2020-02-11T20:56:44-05:00
+            [updated_at] => 2020-02-11T21:19:51-05:00
+            [first_name] => Ryan
+            [last_name] => Jumaday
+            [orders_count] => 3
+            [state] => disabled
+            [total_spent] => 1500.00
+            [last_order_id] => 2019902619785
+            [note] => 
+            [verified_email] => 1
+            [multipass_identifier] => 
+            [tax_exempt] => 
+            [phone] => 
+            [tags] => 
+            [last_order_name] => #1009
+            [currency] => CAD
+            [accepts_marketing_updated_at] => 2020-02-11T21:19:51-05:00
+            [marketing_opt_in_level] => single_opt_in
+            [admin_graphql_api_id] => gid://shopify/Customer/3116971098249
+            [default_address] => Array
+                (
+                    [id] => 3152108880009
+                    [customer_id] => 3116971098249
+                    [first_name] => Ryan
+                    [last_name] => Jumaday
+                    [company] => 
+                    [address1] => Bo. Barretto
+                    [address2] => 
+                    [city] => OIongapo
+                    [province] => 
+                    [country] => Philippines
+                    [zip] => 2200
+                    [phone] => 
+                    [name] => Ryan Jumaday
+                    [province_code] => 
+                    [country_code] => PH
+                    [country_name] => Philippines
+                    [default] => 1
+                )
+
+        )
+
+)
+

@@ -1,0 +1,573 @@
+@import './variablemerchant';
+@import './reset';
+@import './layout';
+@import './form';
+@import './panel';
+@import './table';
+@import './button';
+@import './modal';
+@import './spinner';
+@import './alertmessage';
+@import './dropzone';
+@import './register';
+@import './login';
+@import './website';
+
+
+/*------- Layout -------------- */
+
+.flexcolumn {
+    margin: 0;
+    padding: 0;
+}
+.merchant-wrapper .pagegrid{
+    width: 98%;
+    margin: 0 auto;
+}
+.merchant-wrapper .pagecontent{
+    margin-top: 50px;
+    position: relative;
+}
+
+@media (min-width: $breakpoint-laptop) {
+    .merchant-wrapper .pagegrid{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $breakpoint-laptops) {
+    .merchant-wrapper .pagegrid{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/*------- Top Navigation -------------- */
+.menubars{
+    position: absolute;
+    top: 22x;
+    color: #fff;
+    right: 170px;
+}
+.menubars i{
+    color: #fff;
+    font-size: 17px;
+    vertical-align: middle;
+}
+.merchant-wrapper .header-wrapper .nav{
+    display: none;
+}
+
+
+.merchant-wrapper .header-wrapper .logo img{
+    max-width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.merchant-wrapper .header-wrapper .logo span{
+    color: #fff;
+    font-size: 18px;
+}
+.merchant-wrapper .header-wrapper .nav .ui.menu {
+    display: flex;
+    margin: 1rem 0;
+    background: $primaryColor;
+    font-weight: 400;
+    border: none;
+    box-shadow: none!important;
+    border-radius:0!important;
+    min-height: 2.85714286em;
+}
+.merchant-wrapper .header-wrapper .nav .ui.menu .item{
+    border: 1px solid $primaryColor!important;
+}
+.merchant-wrapper .header-wrapper .nav .ui.item.menu .item {
+    color: rgba(255,255,255,.8);
+    border:none!important;
+}
+.merchant-wrapper .header-wrapper .nav .ui.menu .active.item{
+    background: $primaryColor;
+    color: $secondColor;
+}
+
+.merchant-wrapper .header-wrapper .profile img{
+    max-width: 25px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.merchant-wrapper .header-wrapper .profile .text-name{
+    font-size: 14px;
+    color: rgba(255,255,255,.8);
+}
+.merchant-wrapper .header-wrapper .profile i{
+    vertical-align: middle;
+    margin-left: 2px;
+    margin-top: -5px;
+}
+
+
+@media (min-width: $breakpoint-notebook) {
+
+    .merchant-wrapper .header-wrapper .nav{
+        display: inline-block;
+    }
+    .mobilemenu{
+        display: none;
+        padding:0;
+    }
+    .header-wrapper{
+        padding: 0 0 7px 0;
+    }
+    .menubars{
+        display: none;
+    }
+
+
+}
+@media (min-width: $breakpoint-laptop) {
+
+
+}
+
+
+/*------- Page: Affiliate Invoice -------------- */
+.wrapper-affpayment{
+  padding: 10px 30px 30px 30px;
+  position: relative;
+  background: #fff;
+  box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.segment-title h2{
+	font-size: 1.3rem;
+  font-weight: 600;
+}
+.segment-title p{
+  opacity: 0.8;
+}
+
+
+.invoice{
+  padding: 40px;
+  background: #fff;
+}
+.invoice p{
+  opacity: 0.8;
+}
+.invoice-logo img{
+  max-width: 150px;
+}
+.invoice-logo .invoice-text h2{
+  font-size: 35px;
+  font-weight: 500;
+}
+.invoice-logo .invoice-text{
+  text-align: right;
+}
+
+
+.invoice-to h3{
+  font-weight: 600;
+  font-size: 18px;
+}
+.invoice-to h4{
+  font-weight: 600;
+  font-size: 15px;
+}
+.invoice-description{
+  margin-top: 30px;
+}
+
+.totalfooter{
+  border-top: 2px solid #2185d0!important;
+  color: #004085!important;
+  font-size: 15px;
+  font-weight: 700!important;
+}
+.paypalbutton{
+  margin-top: 20px;
+  position: relative;
+}
+.paypalbutton .paywrapper{
+  width: 180px;
+  /*margin:0 50px 0 auto;*/
+}
+
+
+.invoice-to .tableinvoice{
+  width: 50%!important;
+  float: right;
+}
+
+.borderbottom td {
+  border-bottom: 1px solid #2185d0!important;
+}
+.bottommargin{
+  margin-bottom: 20px;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+  .invoice-to .tableinvoice{
+    width: 70%!important;
+  }
+  .invoice{
+    padding: 30px;
+  }
+  .invoice a{
+    color: inherit!important;
+  }
+}
+
+
+/*------- Page: Integration -------------- */
+.merchant-wrapper .integration-wrapper .integration-nav{
+    margin-top: 15px;
+}
+.tab-wrapper{
+    padding: 20px;
+}
+.tracking-purchased,
+.tracking-info{
+    margin-top: 30px;
+}
+
+
+/*------- Page: Tutorial -------------- */
+.tutorial-accordion{
+    margin-top: 15px;
+}
+.tutorial h2{
+    text-align: center;
+}
+.tutorial-accordion .ui.styled.accordion .accordion .accontent,
+.tutorial-accordion .ui.styled.accordion .accontent {
+    margin: 0;
+    padding:10px 35px 35px 35px;
+}
+.tutorial-accordion p{
+    margin:10px 0;
+}
+.tutorial-accordion .segment-title h3{
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    color: #273e68;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+.tutorial-accordion .button-completed{
+    padding-top: 15px;
+    border-top: 2px dotted #ddd;
+    text-align: center;
+}
+
+
+/*------- Page: Staff -------------- */
+.staff-wrapper .table-action{
+    padding-bottom: 20px;
+}
+.persmission-title{
+    margin-bottom: 10px;
+}
+.staff-permission{
+  margin-top: 25px;
+}
+.staff-permission label{
+    font-weight: normal!important;
+}
+.staff-permission h3{
+    margin-bottom: 5px;
+}
+.staff-wrapper ._view{
+    margin:5px 0;
+    background: #fff;
+    border:1px dotted #ddd;
+}
+.staff-wrapper ._view ._viewtitle{
+    color: #273e68;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.staff-wrapper ._view ._viewspan{
+    margin:0 5px;
+}
+.staff-wrapper ._view i{
+    color: #21ba45;
+}
+.staff-link{
+    position: relative;
+    background:#fff;
+    padding:30px 20px 20px 20px;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+    margin-bottom: 15px;
+}
+
+/*------- Page: Account -------------- */
+.account h1{
+    text-align: center;
+}
+.account h2{
+    font-weight: 600;
+}
+
+
+/*------- Page: Dashboard -------------- */
+.dashboard .rowaffiliates,
+.dashboard .rowunpaid{
+    background: $primaryColor;
+    padding: 20px;
+    color: #fff;
+}
+.dashboard .dashrowone img{
+    max-width: 50px;
+}
+.dashboard .dashrowone h3{
+    margin-bottom: 10px;
+}
+.dashboard .dashrowone h2{
+    font-size: 35px;
+    font-weight: normal;
+}
+.dashboard .rowdate h3{
+    margin-bottom: 15px;
+}
+
+
+.summary-status a{
+  color: inherit;
+}
+.summary-date{
+    margin:20px 0;
+}
+
+.summary-status .summary-column{
+    background: #fff;
+    padding: 20px;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.summary-status .summary-column img{
+    max-width: 50px;
+}
+.summary-status .summary-column h3{
+    margin-bottom: 10px;
+}
+.summary-status .summary-column h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.dashboard{
+    position: relative;
+}
+.dashboard-chart{
+    margin-top: 20px;
+    background: #fff;
+    width: 100%;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+    max-height: 600px;
+    position: relative;
+}
+.dashboard-visitor{
+    padding: 30px;
+}
+.dashboard-visitor .button{
+    margin-left: 10px;
+}
+.dashboard-header{
+  border-bottom: 1px solid #ddd;
+}
+.topchartSearch{
+    margin-bottom: 20px;
+}
+.topchartSearch .ui.form .field label{
+    font-weight: 600;
+}
+.dashboard-header{
+  padding: 10px 30px;
+  text-align: right;
+}
+.dashboard-header h2{
+  font-weight: 700;
+  text-align: left!important;
+}
+/*------- Page: Orders -------------- */
+.orders .table-buttons,
+.orders .order-navigation,
+.orders .searchtable{
+    margin-bottom: 20px;
+}
+.orders .ui.menu {
+    box-shadow: none;
+}
+.modalorder .columns,
+.modalorder .columns .column{
+    margin:0!important;
+    padding:0!important;
+}
+
+
+/*------- Page: Pricing Plans -------------- */
+.account-plan h1{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.pricingpanel{
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.pricingheader{
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #f8ffff;
+  color: #276f86;
+}
+.pricingbody{
+  padding: 20px 20px;
+  border-top: 1px solid #ddd;
+}
+.pricingbody .button{
+  text-align: center;
+}
+.planprice span{
+  font-weight: 700;
+}
+
+.pricingpanel .orderitem h2,
+.pricingpanel .ordersubtotal h2,
+.pricingpanel .ordertotal h2{
+
+}
+.pricingpanel .ordertotal{
+  background:#f8f8f8;
+  padding:30px 20px;
+}
+.pricingpanel .ordertotal h2,
+.pricingpanel .ordertotal span{
+  font-weight: 600;
+  text-transform: uppercase;
+  color:#276f86;
+  font-size: 18px;
+}
+
+
+/*------- Page: Banner -------------- */
+.ishow{
+    margin-top: 10px;
+}
+.banners-list{
+    margin:15px 0;
+    background: #fff;
+    padding: 20px;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.banners-list h2{
+    font-weight: 600;
+}
+.banners .table-buttons{
+    margin-bottom: 20px;
+}
+.nobanners{
+    background: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.nobanners h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #721c24;
+}
+
+/* ------ Page: Settings ----------- */
+.textdescription p{
+    margin:5px;
+}
+
+/*------- Page: Footer -------------- */
+
+.merchant-footer{
+    padding: 50px 0;
+}
+.merchant-footer p{
+    text-align: center;
+    font-size: 13px;
+}
+
+
+
+/*-----------------------------------------------------------Affiliate Dashboard------------------------------------------*/
+
+
+/*------- Page: Dashbaord -------------- */
+.affdashboard .socialmedia{
+    margin-bottom: 20px;
+    text-align: right;
+}
+.affdashboard .socialmedia span{
+    font-weight: 600;
+    margin-right: 15px;
+}
+.affdashboard .referallinks{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+
+.affdashboard .summary-date-aff{
+    margin:5px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.affdashboard .summary-aff .summary-column{
+    background: #fff;
+    padding: 20px;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.affdashboard .summary-aff .summary-column img{
+    max-width: 50px;
+}
+.affdashboard .summary-aff .summary-column h3{
+    margin-bottom: 10px;
+}
+.affdashboard .summary-aff .summary-column h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+.affdashboard .datesummary .ui.form .fields {
+    margin: 0;
+}
+.affdashboard .datesummary h3{
+    margin-bottom: 10px;
+}
+
+.affdashboard .dashboard-table{
+    margin-top: 20px;
+}
+.tableaffstatus .is-pulledright{
+    float: right;
+}
+.tableaffstatus{
+    padding-bottom: 15px;
+}
+
+
+
+/* ---------- Banners ---------------- */
+.bannersbuttonaff{
+    margin-top: 20px;
+}
+.bannerwidth img{
+  width: 100%;
+}

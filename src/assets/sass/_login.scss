@@ -1,0 +1,75 @@
+.login-wrapper .login-grid{
+    width: 98%;
+    margin: 0 auto;
+}
+.login-wrapper .topheading{
+    position: relative;
+    padding:10px 0;
+    background: $primaryColor;
+    box-shadow: 0 6px 50px -10px rgba(54,56,64,.22);
+}
+.login-wrapper .topheading img{
+    max-width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.login-wrapper .topheading span{
+    color: #fff;
+    font-size: 18px;
+}
+
+.login-wrapper .login-form{
+    margin-top: 100px;
+}
+.login-wrapper .login-form .login-input{
+    /*box-shadow: inset 0 3px 0 0 #2185d0, inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);*/
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+    background: #fff;
+}
+.login-wrapper .login-form .login-input h2{
+    font-size: 25px;
+}
+.login-wrapper .login-form .login-input h3{
+    margin-bottom: 20px;
+}
+.login-wrapper .inside-padding{
+    padding: 30px;
+}
+
+.login-wrapper .login-input a{
+    color:#637381;
+}
+.login-wrapper .login-input .linkinput{
+    text-align: center;
+    padding-top: 10px;
+}
+.login-wrapper .login-input a:hover{
+    color:#637381;
+    text-decoration: underline;
+}
+
+.login-wrapper .login-grid-top{
+    width: 98%;
+    margin: 0 auto;
+}
+
+@media (min-width: $breakpoint-tablet) {
+    .login-wrapper .login-grid{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .login-wrapper .login-grid-top{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: $breakpoint-desktop) {
+    .login-wrapper .login-grid{
+        width: 25%;
+        margin: 0 auto;
+    }
+    .login-wrapper .login-grid-top{
+        width: 50%;
+        margin: 0 auto;
+    }
+}

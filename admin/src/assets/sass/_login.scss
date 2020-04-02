@@ -1,0 +1,61 @@
+.admin-login{
+  width: 98%;
+  margin:10px auto 0 auto;
+}
+.admin-logo{
+  text-align: center;
+  margin:20px 0;
+}
+.admin-logo img{
+  max-width: 200px;
+}
+.admin-login .wrapperlogin{
+  background: #fff;
+  padding: 30px;
+  position: relative;
+  box-shadow: $boxinset;
+}
+.admin-login .loginheading{
+  margin-bottom: 25px;
+}
+.admin-login .loginheading img{
+  border-radius: 50%;
+}
+.admin-login .loginheading h3{
+  font-size: 22px;
+}
+.loginaccount{
+  margin-top:20px;
+}
+.loginaccount .button{
+  margin-top: 20px;
+}
+.loginaccount .ui.form .field label {
+  font-weight: normal;
+}
+.loginaccount p{
+  text-align: center;
+  padding-top: 10px;
+}
+.textfooter{
+  margin-top: 10px;
+  text-align: center;
+}
+@media (min-width: $breakpoint-phone) {
+  .admin-login{
+    width: 50%;
+    margin:100px auto 0 auto;
+  }
+}
+@media (min-width: $breakpoint-tablet) {
+  .admin-login{
+    width: 35%;
+    margin:100px auto 0 auto;
+  }
+}
+@media (min-width: $breakpoint-desktop) {
+  .admin-login{
+    width: 20%;
+    margin:120px auto 0 auto;
+  }
+}

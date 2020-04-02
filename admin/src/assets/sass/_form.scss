@@ -1,0 +1,209 @@
+.ui.form .field label{
+	font-weight: 600;
+	color: $bodyColor;
+}
+.ui.toggle.checkbox input:checked~.box, .ui.toggle.checkbox input:checked~label {
+    color: $bodyColor!important;
+}
+.ui.form .field .prompt.label {
+    font-weight: 600;
+}
+select.ui.dropdown {
+    height: 35px;
+}
+.ui.form .field .prompt.label.errorlabel{
+    white-space: normal;
+    background: #fff!important;
+    border: none!important;
+    color: #9f3a38!important;
+}
+.ui.form .field .prompt.label.errorlabel i{
+    margin-right: 3px;
+}
+
+.ui.form input:not([type]),
+.ui.form input[type=date],
+.ui.form input[type=datetime-local],
+.ui.form input[type=email],
+.ui.form input[type=file],
+.ui.form input[type=number],
+.ui.form input[type=password],
+.ui.form input[type=search],
+.ui.form input[type=tel],
+.ui.form input[type=text],
+.ui.form input[type=time],
+.ui.form input[type=url],
+.ui.form textarea {
+    font-family: $defaultfontFamily;
+    color: $bodyColor;
+}
+
+
+.errorlabel{
+	color: #9f3a38;
+	font-size: 11px;
+	font-weight: 600;
+	padding-top: 5px;
+}
+.errorlabel{
+    margin: 0 .14285714em;
+    padding: 0!important;
+    margin:0;
+}
+.ui.label>.icon {
+    width: auto;
+    margin: 0 .2em 0 0;
+}
+
+
+.ui.avatar.image, .ui.avatar.image img, .ui.avatar.image svg, .ui.avatar.images .image, .ui.avatar.images img, .ui.avatar.images svg {
+    margin-right: .25em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 0;
+}
+.ui.dropdown .menu>.item>.image, .ui.dropdown .menu>.item>img, .ui.dropdown>.text>.image, .ui.dropdown>.text>img {
+    display: inline-block;
+    vertical-align: middle!important;
+    width: auto;
+    margin-top: -.5em;
+    margin-bottom: -.5em;
+    max-height: 2em;
+}
+
+.labelagree label{
+    font-weight: normal!important;
+}
+
+.ui.disabled.input, .ui.input:not(.disabled) input[disabled] {
+    opacity: .45;
+    background: #ddd;
+}
+
+/* Message Alert */
+
+.show-message{
+    padding: 20px;
+    margin:10px 0 15px 0;
+}
+.show-message.small{
+    padding: 20px;
+    margin:10px 0 15px 0;
+}
+.show-message .columns{
+    box-shadow: none!important;
+}
+.show-message .messageclose i{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.show-message .messageclose i:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* small */
+.show-message .messageicon.small{width: 15%;}
+.show-message .messagetext.small{width: 70%;}
+.show-message .messageclose.small{width: 15%;text-align: right;}
+
+
+/* full */
+.show-message .messageicon.full{width: 5%;}
+.show-message .messagetext.full{width: 90%;}
+.show-message .messageclose.full{width: 5%;text-align: right;}
+
+/* --------Success----------- */
+
+.show-message.successalert{
+    background: #eff7ed;
+    border-top: 1px solid #50b83c;
+    box-shadow: inset 0 3px 0 0 #50b83c, inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.show-message.successalert .messageicon i{
+    font-size: 22px;
+    color: #108043;
+}
+
+/* --------Error----------- */
+
+.show-message.erroralert{
+    background: #fff6f6;
+    border-top: 1px solid #db2828;
+    box-shadow: inset 0 3px 0 0 #db2828, inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.show-message.erroralert .messageicon i{
+    font-size: 22px;
+    color: #db2828;
+}
+
+
+/* Toggle */
+.formconfig .ui.toggle.checkbox input:focus:checked~.box:before,
+.formconfig .ui.toggle.checkbox input:focus:checked~label:before {
+    background-color: $greenColor !important
+}
+.formconfig .ui.toggle.checkbox input:checked ~ .box:before,
+.formconfig .ui.toggle.checkbox input:checked ~ label:before {
+  background-color: $greenColor !important;
+}
+
+.permission-wrapper{
+	padding:15px 0;
+}
+.permission-wrapper .labelpermission{
+	color:$redColor!important;
+	font-weight: 500!important;
+	text-transform: uppercase!important;
+}
+
+/* Date Picker */
+.date-wrapper,
+.date-wrapper > div.react-datepicker-wrapper,
+.date-wrapper > div > div.react-datepicker__input-container
+.date-wrapper > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+.react-datepicker-popper { z-index: 100 !important }
+
+/* Form Table */
+.form-wrapper{
+  position: relative;
+}
+.formcolumn{
+	box-shadow: $boxinset;
+	margin-top: 15px;
+	background: #fff;
+}
+.form-wrapper .columns{
+	padding: 10px 0;
+	margin:0;
+}
+.form-wrapper .column{
+	margin:0;
+}
+.form-wrapper .nopadding{
+	padding:5px 0;
+}
+.form-wrapper label{
+	font-weight: 600;
+}
+
+
+/* Subscription */
+.subscriptionlabel{
+	padding:0 0 10px 0;
+}
+.wrapp_professional .formcolumn{
+	border-left: 3px solid #18b532;
+}
+.wrapp_professional .formcolumn .inlinelabel{
+	color: #18b532;
+}
+.wrapp_enterprise .formcolumn{
+	border-left: 3px solid #ff7728;
+}
+.wrapp_enterprise .formcolumn .inlinelabel{
+	color: #ff7728;
+}

@@ -1,0 +1,15 @@
+1. npx create-react-app filename
+2. npm i react-router-dom
+3. npm i formik
+4. npm i yup
+5. npm i axios
+6. npm i jquery
+7. npm i react-render-html
+8. npm i react-spinners
+9. npm i semantic-ui-react / npm i semantic-ui-css --save
+
+others
+npm i react-datepicker
+10. npm i react-dropzone-component
+11. npm i cleave.js
+12. npm i react-ckeditor-component

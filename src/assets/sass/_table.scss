@@ -1,0 +1,86 @@
+.table-responsive{
+/*width: 100%;
+overflow-y: auto;
+overflow-x: hidden;*/
+}
+.responsivecontainer{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.table-wrapper{
+    position: relative;
+    background: #fff;
+    padding:15px;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.table-wrappernone{
+    box-shadow: none!important;
+}
+.tabtable.table-wrapper{
+    background: #fafafa;
+}
+.table-search{
+    padding: 5px;
+}
+.table-wrapper table th{
+    font-weight: 600!important;
+}
+.table-wrapper table td{
+    vertical-align: middle;
+}
+.imagetable img{
+    width: 50px;
+    height: 40px;
+}
+.tabletdrelative{
+    position: relative;
+}
+
+/* Table has navigation */
+.table-navigation{
+    margin:15px 0
+}
+.table-navigation .ui.menu {
+    box-shadow: none;
+    border-radius: .28571429rem;
+    min-height: 2.85714286em;
+}
+.table-navigation .ui.menu i{
+    color: #d6d4d4;
+}
+
+.table-navigation .ui.menu .active.item {
+    background: #eff7ed;
+    color: rgba(0,0,0,.95);
+    font-weight: 400;
+    box-shadow: none;
+}
+.table-navigation .ui.menu .active.item i{
+    color: #50b83c;
+}
+
+/* Table has search */
+
+.pagination-link.is-current {
+    background-color:$secondColor;
+    border-color:$secondColor;
+    color: #fff;
+}
+.searchtable{
+    background: #fff;
+    padding: 20px;
+    box-shadow: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+
+/* Table entries and action
+----------------------------------*/
+.table-button{
+    margin:5px 0 15px 0;
+}
+.entries-container label{
+    padding-top: 10px;
+}
+.entries-container .ui.form .fields {
+    margin: 0;
+}

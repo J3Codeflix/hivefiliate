@@ -1,0 +1,56 @@
+
+.show-message{
+    padding: 10px 10px 20px 10px;
+    margin:10px 0 15px 0;
+}
+.show-message.small{
+    padding: 10px 10px 20px 10px;
+    margin:10px 0 15px 0;
+}
+.show-message .columns{
+    box-shadow: none!important;
+}
+.show-message .messageclose i{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.show-message .messageclose i:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* small */
+.show-message .messageicon.small{width: 15%;}
+.show-message .messagetext.small{width: 70%;}
+.show-message .messageclose.small{width: 15%;text-align: right;}
+
+
+/* full */
+.show-message .messageicon.full{width: 5%;}
+.show-message .messagetext.full{width: 90%;}
+.show-message .messageclose.full{width: 5%;text-align: right;}
+
+/* --------Success----------- */
+
+.show-message.successalert{
+    background: #eff7ed;
+    border-top: 1px solid #50b83c;
+    box-shadow: inset 0 3px 0 0 #50b83c, inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.show-message.successalert .messageicon i{
+    font-size: 22px;
+    color: #108043;
+}
+
+
+/* --------Error----------- */
+
+.show-message.erroralert{
+    background: #fff6f6;
+    border-top: 1px solid #9f3a38;
+    box-shadow: inset 0 3px 0 0 #9f3a38, inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+}
+.show-message.erroralert .messageicon i{
+    font-size: 22px;
+    color: #9f3a38;
+}

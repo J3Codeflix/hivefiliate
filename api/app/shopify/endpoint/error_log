@@ -1,0 +1,28 @@
+[17-Feb-2020 15:28:03 Asia/Hong_Kong] Webhook Order: Array
+(
+    [discount_codes_code] => 
+    [discount_codes_amount] => 
+    [discount_codes_type] => 
+    [order_id] => 2026398449801
+    [total_price] => 500.00
+    [order_status] => pending
+    [referring_site] => https://whertoshophive.myshopify.com/32415350921/orders/164d60d89a0a16bd39d98bad2ab921fc/authenticate?key=9bfb9b16ca1e9369446f07efc653eb9c
+    [browser_ip] => 120.29.104.63
+)
+
+[17-Feb-2020 15:28:03 Asia/Hong_Kong] Webhook Order Return: Array
+(
+    [$is_order] => is_approved
+    [$merchant_id] => 
+    [$affiliate_id] => 9
+    [$order_id] => 2026398449801
+    [$type_tracking] => Tracking by link
+    [$total_price] => 500.00
+    [$affiliate_earnings] => 0
+    [$date_order] => 2020-02-17
+    [$order_status] => Pending
+    [$referring_site] => https://whertoshophive.myshopify.com/32415350921/orders/164d60d89a0a16bd39d98bad2ab921fc/authenticate?key=9bfb9b16ca1e9369446f07efc653eb9c
+    [$browser_ip] => 120.29.104.63
+    [$device_type] => Shopify-Captain-Hook
+)
+

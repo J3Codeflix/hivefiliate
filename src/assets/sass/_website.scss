@@ -1,0 +1,674 @@
+body .hivefiliate-wrapper{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+body .hivefiliate-wrapper,
+body .hivefiliate-wrapper h1{
+    font-family: 'Poppins', sans-serif!important;
+}
+
+.particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
+
+.hive-grid{
+    width: 98%;
+    margin:0 auto;
+}
+
+.hivetop{
+    background: #fff;
+    padding: 20px 0 0 0;
+    position: relative;
+    z-index: 999;
+}
+.hive-navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    display: flex;
+    padding-top: 20px;
+}
+.hivenavigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    display: flex;
+    padding-top: 20px;
+}
+.navscrolling{
+    background: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: $boxinset;
+    border-bottom: 1px solid #ddd;
+}
+
+.fixnav{
+    background: #39517c;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: $boxinset;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.hivetop .hivelogo img{
+    max-width: 160px;
+    display: block;
+}
+
+
+.hivelogotop1.tlogo1{
+    display: none!important;
+}
+.hivelogotop2.tlogo2{
+    display: none!important;
+}
+
+.hivemenu{
+    float: none;
+}
+.hivetop ul{
+    list-style-type: none;
+}
+.hivetop ul li{
+    display: block;
+    padding: 5px 15px;
+}
+.hivetop ul li a{
+    color:inherit;
+    font-weight: 600;
+}
+
+.navscrolling ul li a{
+    color: inherit;
+    font-weight: 500;
+}
+
+
+.hive-introtext{
+    width: 100%;
+    padding:170px 0 0 0;
+    margin:0 auto;
+    text-align: center;
+    z-index:99!important;
+}
+
+
+.hive-introtext h1,
+.hive-introtext p{
+    color: inherit;
+}
+.hive-introtext p{
+    margin:50px 0 50px 0;
+}
+.hive-introtext h1{
+    font-size: 2.2em;
+    font-weight: 500;
+}
+.landingpage-image{
+    position: relative;
+}
+.landingpage-image img{
+    z-index: 100;
+}
+
+.hivegraph{
+    position: absolute;
+    bottom: -10px;
+    left: -1px;
+    right: -1px;
+    z-index: -1;
+}
+.hivegraph img{
+    width: 100%;
+}
+.buttonintro{
+    position: relative;
+    text-align: center;
+    left: -110px;
+    margin-bottom: 30px;
+}
+.buttonintro .button{
+    position: absolute;
+    z-index: 1;
+}
+
+
+.hivemenu{
+    display: none;
+}
+.mobilemenu{
+    padding-right: 30px;
+}
+.hivelogo .hdlogo{
+    display: none;
+}
+.hivelogo .mobilelogo{
+    display: block;
+}
+.navsroll{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.mobilemenu ul li .button{
+    white-space: nowrap!important;
+}
+.navscrolling .hivemenu ul li a{
+   color: #111;
+}
+
+
+
+@media (min-width: $breakpoint-smallphone) {
+
+    .hivetop{
+        background: #39527b;
+        padding: 20px 0 0 0;
+        position: relative;
+        z-index: 999;
+    }
+    .hivetop ul li a{
+        color: #fff;
+        font-weight: 600;
+    }
+    .hive-introtext{
+        width: 80%;
+        padding:170px 0 0 0;
+        margin:0 auto;
+        text-align: center;
+        z-index:99!important;
+    }
+    .hive-introtext h1{
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    .hive-introtext p{
+        margin:30px 0 30px 0;
+    }
+    .buttonintro{
+        position: relative;
+        text-align: center;
+        left: -110px;
+    }
+    .hivetop ul li{
+        display: inline;
+        padding: 0 15px;
+    }
+    .hivemenu{
+        float: right;
+    }
+}
+
+
+
+@media (min-width: $breakpoint-tablet) {
+    .hive-introtext{
+        width: 55%;
+        padding:170px 0 0 0;
+        margin:0 auto;
+        text-align: center;
+        z-index:99!important;
+    }
+    .hive-introtext h1{
+        font-size: 2.8em;
+        font-weight: 500;
+    }
+    .hive-introtext h1{
+        color: #fff;
+    }
+    .hive-introtext p{
+        color: #d5d8d4;
+    }
+    .hivemenu{
+        display: block;
+    }
+    .mobilemenu{
+        display: none
+    }
+    .hivelogo .hdlogo{
+        display: block;
+    }
+    .hivelogo .mobilelogo{
+        display: none;
+    }
+    .navsroll{
+        box-shadow: none;
+    }
+}
+
+
+@media (min-width: $breakpoint-notebook) {
+    .hive-grid{
+        width: 80%;
+        margin:0 auto;
+    }
+}
+
+
+@media (min-width: $breakpoint-desktop) {
+    .hive-grid{
+        width: 60%;
+        margin:0 auto;
+    }
+}
+
+
+
+
+
+/* Intro Box */
+.intro-container{
+    position: relative;
+}
+.intro-box{
+    padding:100px 0;
+    text-align: center;
+}
+.intro-box h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #111;
+}
+.intro-box p{
+    margin-top: 20px;
+}
+
+.intro-box-description{
+    padding-bottom: 70px;
+}
+.intro-box-description .column{
+    margin:0.75rem;
+    padding:30px 20px;
+    box-shadow: 0 6px 50px -10px rgba(54,56,64,.22);
+    -webkit-transition:ease all 0.3s;
+    transition:ease all 0.3s;
+}
+.intro-box-description h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    color:#111;
+}
+.intro-box-description .columns{
+    margin:0;
+}
+.intro-box-description .column:hover{
+    margin-top: -5px;
+    background: $primaryColor;
+    color: #d5d8d4;
+}
+.intro-box-description .column:hover h3{
+    color: #fff;
+}
+
+
+.hive-grow-manage{
+    padding: 70px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.hive-grow-manage h1{
+    font-size: 25px;
+    margin: 0 0 20px;
+    color: #111;
+}
+.hive-grow-manage .button{
+    margin-top: 20px;
+}
+
+
+.hive-grow-confidence{
+    padding: 70px 0;
+    text-align: center;
+}
+.hive-grow-confidence h1{
+    font-size: 25px;
+    margin: 0 0 20px;
+    color: #111;
+}
+.hive-grow-confidence .button{
+    margin-top: 20px;
+}
+
+
+.start-growing{
+    background: $primaryColor;
+    padding: 100px 0;
+    text-align: center;
+}
+.start-growing h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+}
+.start-growing p{
+    color: #d5d8d4;
+    margin:20px 0;
+}
+
+@media (min-width: $breakpoint-smallphone) {
+    .hive-grow-confidence h1{
+        font-size: 40px;
+        margin: 0 0 20px;
+        color: #111;
+    }
+    .hive-grow-manage h1{
+        font-size: 40px;
+        margin: 0 0 20px;
+        color: #111;
+    }
+    .hive-grow-confidence{
+        padding: 70px 0;
+    }
+    .hive-grow-manage{
+        padding: 70px 0;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+/* Pricing */
+.pricing-plans{
+    padding: 80px 0 100px 0;
+    position: relative;
+}
+.pricing-plans .top-pricing{
+    text-align: center;
+    width: 50%;
+    margin:0 auto;
+}
+.pricing-plans .top-pricing h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+}
+.pricing-plans .top-pricing p{
+    margin:20px 0 40px 0;
+}
+
+.pricing-professional{
+    box-shadow: 0 6px 50px -10px rgba(54,56,64,.22);
+    text-align: center;
+    -webkit-transition:ease all 0.3s;
+    transition:ease all 0.3s;
+}
+.pricing-professional:hover{
+    margin-top: -10px;
+    box-shadow: 0 6px 50px -10px rgba(54,56,64,.22);
+}
+.pricing-body{
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.pricing-body,
+.pricing-heading{
+    padding: 25px 20px;
+}
+
+.pricing-professional .pricing-heading{
+    background: $primaryColor;
+}
+.pricing-footer{
+    padding: 15px 20px;
+}
+.pricing-professional h4{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+}
+.pricing-heading p{
+    color: #d5d8d4;
+}
+.pricing-professional h4 span{
+    font-size: 16px;
+    vertical-align: text-top;
+}
+.pricing-body p{
+    margin:10px 0;
+}
+.pricing-body p span{
+    font-weight: 600;
+}
+
+/* Enterprice */
+.pricing-enterprise{
+    border: 1px solid #ddd;
+    text-align: center;
+    -webkit-transition:ease all 0.3s;
+    transition:ease all 0.3s;
+}
+.pricing-enterprise:hover{
+    margin-top: -10px;
+    box-shadow: 0 6px 50px -10px rgba(54,56,64,.22);
+}
+
+.pricing-footer{
+    padding: 15px 20px;
+}
+.pricing-enterprise h4{
+    font-size: 40px;
+    color: #111;
+    margin-top: 20px;
+}
+.pricing-enterprise .pricing-heading p{
+    color: inherit;
+}
+.pricing-enterprise h4 span{
+    font-size: 16px;
+    vertical-align: text-top;
+}
+.pricing-enterprise .pricing-heading{
+    padding-bottom: 50px;
+}
+.pricing-enterprise .pricing-body p{
+    margin:20px 10px;
+}
+.pricing-body p span{
+    font-weight: 600;
+}
+
+
+
+/*----------------- Parallax Intro------------------------- */
+.intro-container .shapes-box span:nth-child(1) img{
+    position: absolute;
+    top: 80px;
+    right: 110px;
+}
+
+.intro-container .shapes-box span:nth-child(8) img{
+    position: absolute;
+    top: 200px;
+    right: 250px;
+}
+
+.intro-container .shapes-box span:nth-child(3) img{
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+.intro-container .shapes-box span:nth-child(4) img{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.intro-container .shapes-box span:nth-child(7) img{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.intro-container .shapes-box span:nth-child(6) img{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+/*----------------- Parallax Pricing------------------------- */
+
+.shapes-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+.pricing-plans span:nth-child(1) img{
+    position: absolute;
+    top: 100px;
+    right: 110px;
+}
+.pricing-plans span:nth-child(8) img{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+
+.pricing-plans span:nth-child(2) img{
+    position: absolute;
+    top: 270px;
+    left: 300px;
+}
+
+.pricing-plans span:nth-child(3) img{
+    position: absolute;
+    top: 600px;
+    left: 150px;
+}
+.pricing-plans span:nth-child(4) img{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.pricing-plans span:nth-child(5) img{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.pricing-plans span:nth-child(6) img{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+}
+.pricing-plans span:nth-child(7) img{
+    position: absolute;
+    top: 15px;
+    left: 130px;
+}
+.pricing-plans span:nth-child(9) img{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+
+
+.moveparticle img{
+    transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+}
+
+
+
+.textprivacy >div{
+  margin-bottom: 20px;
+}
+.textprivacy h4{
+  font-weight: 800;
+  margin-bottom: 3px;
+}
+
+
+
+.terms_privacy{
+  margin: 100px 0;
+}
+.terms_privacy .hive-grid >div{
+  margin-bottom: 20px;
+}
+.terms_privacy .hive-grid h4{
+  font-weight: 800;
+  margin-bottom: 3px;
+  color: #39517c;
+}
+.terms_privacy .hive-grid h2{
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #39517c;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.terms_privacy .hive-grid .list {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+
+
+
+
+/* Footer */
+.hive-footer{
+    background: #111;
+    padding: 10px 0;
+}
+.hive-footer img{
+    max-width: 180px;
+}
+.hive-contact{
+    padding: 50px 0;
+}
+.hive-contact h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 10px;
+    margin: 0 0 15px;
+}
+.hive-contact h4:after {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.hive-footer a{
+    color: inherit;
+}
+.copyright{
+    padding: 15px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+.copyright p{
+    text-align: center;
+    font-size: 14px;
+}

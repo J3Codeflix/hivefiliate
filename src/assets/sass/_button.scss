@@ -1,0 +1,71 @@
+.ui.button{
+	background-image: none;
+	font-weight: normal;
+	text-shadow: none;
+}
+.ui.black.button, .ui.black.buttons .button {
+    background-color: #ffffff;
+	color: $colorBlack;
+	border: 1px solid rgba(34,36,38,.15);
+}
+.ui.black.button:hover, .ui.black.buttons:hover .button:hover,
+.ui.black.button:focus, .ui.black.buttons:focus .button:focus {
+   background-color: #f9fafb;
+   color: $colorBlack;
+}
+
+.ui.grey.button, .ui.grey.buttons .button {
+    background-color: #ffffff;
+	color: $colorBlack;
+}
+.ui.grey.button:hover, .ui.grey.buttons:hover .button:hover {
+   background-color: #f9fafb;
+   color: $colorBlack;
+}
+
+.ui.red.button, .ui.red.buttons .button {
+    background-color: #D1362D;
+	color: #fff;
+}
+.ui.red.button:hover, .ui.red.buttons:hover .button:hover {
+   background-color: #BA3028;
+   color: #fff;
+}
+
+.ui.green.button, .ui.green.buttons .button {
+    background-color: #28a745;
+	color: #fff;
+}
+.ui.green.button:hover, .ui.green.buttons:hover .button:hover {
+   background-color: #25983F;
+   color: #fff;
+}
+
+.ui.teal.button, .ui.teal.buttons .button {
+    background-color: #39517c;
+	color: #fff;
+}
+.ui.teal.button:hover, .ui.teal.buttons:hover .button:hover {
+   background-color: #344b75;
+   color: #fff;
+}
+
+.ui.brown.button, .ui.brown.buttons .button {
+    background-color: #00b9ff;
+	color: #fff;
+}
+.ui.brown.button:hover, .ui.brown.buttons:hover .button:hover {
+   background-color: #00b9ff;
+   color: #fff;
+}
+
+
+/*
+.ui.blue.button, .ui.blue.buttons .button {
+    background-color: #00b9ff;
+	color: #fff;
+}
+.ui.blue.button:hover, .ui.blue.buttons:hover .button:hover {
+   background-color: #00b9ff;
+   color: #fff;
+}*/

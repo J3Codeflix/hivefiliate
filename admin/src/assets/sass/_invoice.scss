@@ -1,0 +1,75 @@
+.invoice-wrapper{
+  width: 70%;
+  background: #fff;
+  padding: 30px;
+}
+.alret{
+  width: 70%;
+}
+.invoice-company img{
+  max-width: 180px;
+}
+.invoice-company .invoicetext{
+  text-align: right;
+}
+.invoice-company .invoicetext h2{
+  font-size: 40px;
+  color: #212b36;
+}
+
+
+
+.invoice-to{
+  margin:20px 0;
+}
+.invoice-to h2{
+  font-size: 20px;
+  color: #212b36;
+  font-weight: 600;
+}
+.invoice-to h4{
+  font-weight: 600;
+}
+.totalfooter{
+  border-top: 2px solid #2185d0!important;
+  color: #004085!important;
+  font-size: 15px;
+  font-weight: 700!important;
+}
+
+.invoice-table .ui.table {
+  color: #004085!important;
+}
+
+.invoice-to .tableinvoice{
+  width: 50%!important;
+  float: right;
+}
+.borderbottom td {
+  border-bottom: 1px solid #2185d0!important;
+}
+
+.paymentapprovaltext h2{
+  font-size: 30px;
+  color: #212b36;
+  font-weight: 600;
+}
+.formapproval{
+  margin-top: 30px;
+}
+.approved{
+  margin-bottom: 10px;
+}
+
+@media print {
+  .invoice-wrapper{
+    width: 100%;
+  }
+  body {
+    background-color: #fff;
+  }
+  .invoice-to .tableinvoice{
+    width: 70%!important;
+  }
+
+}

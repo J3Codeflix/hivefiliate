@@ -1,0 +1,67 @@
+.table-wrapper{
+  padding: 20px;
+  background: #fff;
+  position: relative;
+}
+
+.tablenotpadded{
+  background: #fff;
+  position: relative;
+}
+.table-wrapper .ui.table,
+.tablenotpadded .ui.table{
+  border-radius: 0;
+}
+.table-wrapper .ui.table th,
+.tablenotpadded .ui.table th{
+  color:$darkfontColor;
+  font-weight: 500;
+}
+.table-wrapper .ui.table td,
+.tablenotpadded .ui.table td{
+  color:$bodyColor;
+}
+
+
+
+.table-entries{
+  margin-bottom: 20px;
+}
+.entries-container label{
+    padding-top: 10px;
+}
+.entries-container .ui.form .fields {
+    margin: 0;
+}
+.pagination-link.is-current {
+    background-color: $blueColor;
+    border-color: $blueColor;
+    color: #fff;
+}
+.icon_green i{color:$greenColor}
+.icon_red i{color:$redColor}
+.icon_warning i{color:$oliveColor}
+/* Search */
+.table-search{
+  padding: 20px 0;
+}
+.searchgrid{
+  width: 100%;
+  margin:0 auto;
+}
+.searchbutton{
+  text-align: center;
+}
+.searchformbutton .button{
+  margin-top: 22px;
+}
+.currentplan{
+  font-size: 15px!important;
+  font-weight: 700!important;
+  color:$darkfontColor!important;
+}
+
+/* Icon Color */
+i.teal.icon {
+    color: $tealColor!important;
+}

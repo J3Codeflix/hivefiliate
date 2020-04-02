@@ -1,0 +1,82 @@
+.ui.form .field label{
+	font-weight: 600;
+}
+.ui.form .field .prompt.label {
+    font-weight: 600;
+}
+select.ui.dropdown {
+    height: 35px;
+}
+.ui.form .field .prompt.label.errorlabel{
+    white-space: normal;
+    background: #fff!important;
+    border: none!important;
+    color: #9f3a38!important;
+}
+.ui.form .field .prompt.label.errorlabel i{
+    margin-right: 3px;
+}
+
+.errorlabel{
+	color: #9f3a38;
+	font-size: 11px;
+	font-weight: 600;
+	padding-top: 5px;
+}
+.errorlabel{
+    margin: 0 .14285714em;
+    padding: 0!important;
+    margin:0;
+}
+.ui.label>.icon {
+    width: auto;
+    margin: 0 .2em 0 0;
+}
+
+
+.ui.avatar.image, .ui.avatar.image img, .ui.avatar.image svg, .ui.avatar.images .image, .ui.avatar.images img, .ui.avatar.images svg {
+    margin-right: .25em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 0;
+}
+.ui.dropdown .menu>.item>.image, .ui.dropdown .menu>.item>img, .ui.dropdown>.text>.image, .ui.dropdown>.text>img {
+    display: inline-block;
+    vertical-align: middle!important;
+    width: auto;
+    margin-top: -.5em;
+    margin-bottom: -.5em;
+    max-height: 2em;
+}
+
+.labelagree label{
+    font-weight: normal!important;
+}
+
+.ui.disabled.input, .ui.input:not(.disabled) input[disabled] {
+    opacity: .45;
+    background: #ddd;
+}
+
+/* Form note add Affiliate */
+.form-note-addafiliate{
+    margin-bottom: 20px;
+}
+.form-note-addafiliate span{
+    font-weight: 700;
+}
+.form-note-addafiliate p{
+    margin-bottom: 5px;
+}
+.inlinelabel{
+    font-weight: 600;
+}
+/* Date Picker */
+.date-wrapper, 
+.date-wrapper > div.react-datepicker-wrapper, 
+.date-wrapper > div > div.react-datepicker__input-container
+.date-wrapper > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+.react-datepicker-popper { z-index: 100 !important }

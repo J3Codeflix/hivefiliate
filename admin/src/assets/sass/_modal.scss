@@ -1,0 +1,77 @@
+.visible.transition {
+    position: relative;
+}
+.floatright i{
+    cursor: pointer;
+    font-size: 18px;
+}
+.ui.modal>.header:not(.ui){
+    font-size: $titlesize;
+    line-height: 1.28571429em;
+    font-weight: 700;
+    color:#276f86!important;
+}
+.modalwrapper .header{
+    text-transform: uppercase;
+}
+.modalcontent {
+    position: relative;
+}
+.modalcontent .list,
+.message .list{
+    background-color: transparent!important;
+    border-radius: 0;
+    box-shadow: none;
+}
+.floatright{
+    float: right;
+}
+.ui.dimmer {
+    z-index: 9999999!important;
+}
+.deletemessage {
+    padding:0!important;
+    background: #fff6f6;
+}
+.ui.modal>.deletemessage.content {
+  padding:0!important;
+  background: #fff6f6;
+}
+.deletemessage .ui.message {
+    border-radius: 0!important;
+    box-shadow: none!important;
+    padding: 2em 1.5em;
+}
+.tableonmodal{
+  position: relative;
+  width: 100%;
+}
+.boxplan{
+  padding: 20px;
+  box-shadow: $boxinset;
+  background: #fff;
+}
+.boxform{
+  padding: 28px 20px;
+  box-shadow: $boxinset;
+  background: #fff;
+}
+.colormodal{
+  background-color: $bodybgColor!important;
+}
+.colormodalred{
+  background-color:#fff6f6!important;
+}
+.colormodalred .ui.attached.negative.message,
+.colormodalred .ui.negative.message {
+    box-shadow: none;
+}
+
+.modalorder .columns,
+.modalorder .columns .column{
+  margin:0!important;
+  padding:0!important;
+}
+.modalorder .inlinelabel{
+  font-weight: 600!important;
+}

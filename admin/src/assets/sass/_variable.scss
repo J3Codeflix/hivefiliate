@@ -1,0 +1,49 @@
+/* Config Variable */
+$defaultfontFamily: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$bodybgColor: #e7eff6;
+$bodyColor: #6a7a8c;
+$bodyfontsize:13px;
+$darkfontColor: #276f86;
+$titlesize:20px;
+
+/* Config Color */
+
+$basicColor: rgba(0,0,0,.6);
+$redColor:#db2828;
+$orangeColor:#f2711c;
+$yellowColor:#fbbd08;
+$oliveColor:#b5cc18;
+$greenColor:#21ba45;
+$tealColor:#4d7198;
+$blueColor:#2185d0;
+$violetColor:#6435c9;
+$purpleColor:#a333c8;
+$pinkColor:#e03997;
+$brownColor:#a5673f;
+$greyColor:#767676;
+$blackColor:#1b1c1d;
+$pureWhite:#fff;
+$blurWhite:rgba(0,0,0,0.8);
+
+
+/* Sidebar Variable */
+
+$sidebarBg:#222c3c;
+$textsidebarColor:#818896;
+$textsideHeader:#dadbdd;
+$iconsideBgColor:#2185d0;
+$iconsideColor:#fff;
+$sidedropdownBG:#1c2534;
+
+
+/* Tools */
+$boxinset: inset 0 0 0 0 transparent, 0 0 0 1px rgba(63,63,68,0.05), 0 1px 3px 0 rgba(63,63,68,0.15);
+
+/* Breaking Point */
+$breakpoint-smallphone: 667px;
+$breakpoint-phone: 768px;
+$breakpoint-tablet: 992px;
+$breakpoint-notebook: 1024px;
+$breakpoint-laptop: 1366px;
+$breakpoint-laptops: 1440px;
+$breakpoint-desktop: 1408px;
