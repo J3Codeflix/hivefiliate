@@ -1,8 +1,7 @@
 <?php
 class Database{
 
-	private $host 			= "localhost";
-
+  private $host 	  = "localhost";
   private $db_name    = "hiveelia_hivefiliate";
   private $username   = "hiveelia_user";
   private $password   = "pY(F843wC_&z";
@@ -115,7 +114,7 @@ class Database{
 				$stmt->execute();
 				$row = $stmt->fetch(PDO::FETCH_ASSOC);
 				if($stmt->rowCount()==0){return 0;}
-				return $row;
+			return $row;
 		}
 
 }

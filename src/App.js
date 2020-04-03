@@ -146,6 +146,7 @@ function App() {
 
           <Route exact path={process.env.PUBLIC_URL+'/account'} component={Merchant}/>
           <Route exact path={process.env.PUBLIC_URL+'/payment'} component={Merchant}/>
+          <Route exact path={process.env.PUBLIC_URL+'/payment-v2'} component={Merchant}/>
 
           <Route exact path={process.env.PUBLIC_URL+'/integration'} component={Merchant}/>
           <Route exact path={process.env.PUBLIC_URL+'/tutorial'} component={Merchant}/>

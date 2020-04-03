@@ -8,7 +8,7 @@ require_once("redirecturl.php");
 
 die();
 
-$affiliatelogin_url 		= "https://hivefiliate.com/login";
+$affiliatelogin_url 	= "https://hivefiliate.com/login";
 $merchantregister_url 	= "https://hivefiliate.com/signup/shopify/account";
 
 // Set variables for our request
@@ -33,7 +33,7 @@ if (hash_equals($hmac, $computed_hmac)) {
 	);
 
 	// Generate access token URL
-	$access_token_url 		= "https://" . $params['shop'] . "/admin/oauth/access_token";
+	$access_token_url = "https://" . $params['shop'] . "/admin/oauth/access_token";
 
 	// Configure curl client and execute request
 	$ch = curl_init();
@@ -45,7 +45,7 @@ if (hash_equals($hmac, $computed_hmac)) {
 	curl_close($ch);
 
 	// Store the access token
-	$result 				= json_decode($result, true);
+	$result = json_decode($result, true);
 	$access_token 	= $result['access_token'];
 	$result_token 	= $result['access_token'];
 
@@ -69,9 +69,9 @@ if (hash_equals($hmac, $computed_hmac)) {
 
   // Activate Charge
 	if( isset($_GET['charge_id']) && $result_token==''){
-			 $activate_charge = ActivateCharge($access_token,$params['shop'],$_GET['charge_id']);
-			 echo '<script>top.window.location ="'. $merchantregister_url .'"</script>';
-			 die();
+		$activate_charge = ActivateCharge($access_token,$params['shop'],$_GET['charge_id']);
+		echo '<script>top.window.location ="'. $merchantregister_url .'"</script>';
+		die();
 	}
 
   // Install script tag and save access token to the database
@@ -83,7 +83,7 @@ if (hash_equals($hmac, $computed_hmac)) {
 		$verified_url = '?code='.$params['code'].'&hmac='.$hmac.'&shop='.$params['shop'];
 		echo '<script>top.window.location ="'. ProceedtoAccountCreate($verified_url) .'"</script>';
 		die();
-	 }
+	}
 
 	die();
 

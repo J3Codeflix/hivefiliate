@@ -21,7 +21,6 @@ function ApprovedCharge($access_token,$shopurl){
 }
 
 function ActivateCharge($access_token,$shopurl,$charge_id){
-
     $url = parse_url( 'https://' .$shopurl );
     $host = explode('.', $url['host']);
     $shop = $host[0];

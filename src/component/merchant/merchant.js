@@ -43,6 +43,7 @@ import Payment from './pages/settings/payment'
 import Account from './pages/account/account'
 import AccountStaff from './pages/account/account_staff'
 import AccountPlan from './pages/account/payment'
+import AccountPlanV2 from './pages/account/payment_v2'
 
 import Integration from './pages/integration/integration'
 import Staff from './pages/staff/list'
@@ -177,6 +178,7 @@ export default function Merchant(props) {
 
 							<Route path={process.env.PUBLIC_URL+'/account'}  component={Account}/>
               <Route path={process.env.PUBLIC_URL+'/payment'}  component={AccountPlan}/>
+              <Route path={process.env.PUBLIC_URL+'/payment-v2'} component={AccountPlanV2}/>
 
 							<Route path={process.env.PUBLIC_URL+'/integration'}  component={Integration}/>
 							<Route path={process.env.PUBLIC_URL+'/staff'}  component={istaff==0?Staff:NoPermission}/>

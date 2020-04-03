@@ -155,7 +155,7 @@ export default function Account(props) {
 												labelPosition='right'
 												content="Make Payment"
 												as='a'
-												href={process.env.PUBLIC_URL+'/payment'}
+												href={process.env.PUBLIC_URL+'/payment-v2'}
 											/>}
 											{type_platform=='shopify'&&<Button
 												color='green'
